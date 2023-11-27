@@ -1,0 +1,53 @@
+[29-Sep-2022 07:21:12 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.30. in /home/therightchoice/public_html/app/vendor/composer/platform_check.php on line 24
+[29-Sep-2022 07:58:27 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.30. in /home/therightchoice/public_html/app/vendor/composer/platform_check.php on line 24
+[29-Sep-2022 08:07:42 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.30. in /home/therightchoice/public_html/app/vendor/composer/platform_check.php on line 24
+[29-Sep-2022 08:07:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.4.30. in /home/therightchoice/public_html/app/vendor/composer/platform_check.php on line 24
+[11-Oct-2022 21:32:23 UTC] PHP Warning:  Undefined variable $d in /home/therightchoice/public_html/app/profit_handle.php on line 108
+[11-Oct-2022 21:32:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function multiplegetwhere() on null in /home/therightchoice/public_html/app/profit_handle.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 108
+[11-Oct-2022 21:33:20 UTC] PHP Warning:  Undefined variable $d in /home/therightchoice/public_html/app/profit_handle.php on line 111
+[11-Oct-2022 21:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function multiplegetwhere() on null in /home/therightchoice/public_html/app/profit_handle.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 111
+[11-Oct-2022 21:35:04 UTC] PHP Warning:  Undefined variable $date in /home/therightchoice/public_html/app/profit_handle.php on line 112
+[11-Oct-2022 21:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/therightchoice/public_html/app/profit_handle.php:74
+Stack trace:
+#0 /home/therightchoice/public_html/app/profit_handle.php(112): Database->multiplegetwhere('user_plans', 'active = ? and ...', Array, 'moredetails')
+#1 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 74
+[11-Oct-2022 21:35:37 UTC] PHP Warning:  Undefined variable $date in /home/therightchoice/public_html/app/profit_handle.php on line 112
+[11-Oct-2022 21:36:06 UTC] PHP Warning:  Undefined variable $plans in /home/therightchoice/public_html/app/profit_handle.php on line 114
+[11-Oct-2022 21:36:06 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/therightchoice/public_html/app/profit_handle.php on line 114
+[11-Oct-2022 21:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Database::update() in /home/therightchoice/public_html/app/profit_handle.php:107
+Stack trace:
+#0 /home/therightchoice/public_html/app/profit_handle.php(115): autoupdateplan(8)
+#1 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 107
+[11-Oct-2022 22:07:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: rand() expects exactly 2 arguments, 1 given in /home/therightchoice/public_html/app/profit_handle.php:156
+Stack trace:
+#0 /home/therightchoice/public_html/app/profit_handle.php(156): rand(5.426265625)
+#1 /home/therightchoice/public_html/app/profit_handle.php(167): autoupdateplan(4)
+#2 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 156
+[11-Oct-2022 22:07:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: rand() expects exactly 2 arguments, 1 given in /home/therightchoice/public_html/app/profit_handle.php:156
+Stack trace:
+#0 /home/therightchoice/public_html/app/profit_handle.php(156): rand(5.4262760416667)
+#1 /home/therightchoice/public_html/app/profit_handle.php(167): autoupdateplan(4)
+#2 {main}
+  thrown in /home/therightchoice/public_html/app/profit_handle.php on line 156
+[14-Oct-2022 20:43:37 UTC] PHP Warning:  Undefined array key "balance" in /home/therightchoice/public_html/app/profit_handle.php on line 209
+[14-Oct-2022 20:43:37 UTC] PHP Warning:  Undefined array key "balance" in /home/therightchoice/public_html/app/profit_handle.php on line 209
+[25-Nov-2022 22:28:26 UTC] PHP Warning:  POST Content-Length of 18193798 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:28:42 UTC] PHP Warning:  POST Content-Length of 18193798 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:29:38 UTC] PHP Warning:  POST Content-Length of 17260718 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:32:19 UTC] PHP Warning:  POST Content-Length of 18081630 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:32:23 UTC] PHP Warning:  POST Content-Length of 18081630 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:34:11 UTC] PHP Warning:  POST Content-Length of 12806468 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:34:18 UTC] PHP Warning:  POST Content-Length of 12806468 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[25-Nov-2022 22:34:19 UTC] PHP Warning:  POST Content-Length of 12806468 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[09-Sep-2023 16:26:33 UTC] PHP Warning:  POST Content-Length of 10379693 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[09-Sep-2023 16:27:16 UTC] PHP Warning:  POST Content-Length of 10379693 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[09-Sep-2023 16:27:41 UTC] PHP Warning:  POST Content-Length of 10379693 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
